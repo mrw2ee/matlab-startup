@@ -18,4 +18,4 @@ else
 end
 
 % Issue system call
-eval(sprintf('!%s %s',app,path))
+eval(sprintf('!%s ''%s''',app,path))
